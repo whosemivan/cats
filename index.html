@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cats</title>
+</head>
+
+<body>
+    <div class="container"></div>
+    <div class="button-input">
+        <button type="button" id="open_pop_up">Добавить кота</button>
+        <div class="pop_up" id="pop_up">
+            <div class="pop_up_container">
+                <div class="pop_up_body" id="pop_up_body">
+                    <form action="" id="addCat">
+                        <input type="text" name="name" placeholder="Barsic" required />
+                        <br />
+                        <input type="number" name="id" placeholder="id" min="1" required />
+                        <br />
+                        <input type="url" placeholder="image link" name="img_link" />
+                        <br />
+                        <input type="text" placeholder="описание" name="description" />
+                        <br />
+                        <input type="number" name="rate" placeholder="рейтинг" required />
+                        <br />
+                        <input type="number" name="age" placeholder="age" min="1" required />
+                        <br />
+                        <button type="submit">Добавить кота</button>
+                    </form>
+                    <div class="pop_up_close" id="pop_up_close">&#10006</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
